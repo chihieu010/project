@@ -1,0 +1,38 @@
+header{
+    padding: 22px 0px;
+    background-color: var(--bg-color);
+}
+div.container{
+    padding: 0px var(--padding-container);
+}
+div.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div nav a.main-logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+div nav a.main-logo i.logo-icon{
+    color: var(--primary-color);
+}
+
+div.container nav.navigation-bar ul{
+    display: flex;
+    font-size: 18px;
+}
+div.container nav.navigation-bar ul li.active{
+    color: var(--primary-color);
+}
+div.container nav.navigation-bar ul li{
+    margin-right: 24px;
+}
+div.container nav.navigation-bar ul li:last-child{
+    margin-right: 0px;
+}
+a.menu-link{
+    font-size: 18px;
+    font-weight: 500;
+}

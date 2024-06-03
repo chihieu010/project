@@ -1,0 +1,79 @@
+@media only screen and (max-width: 576px) {
+    :root {
+        --padding-container: 15px;
+    }
+    div.container nav{
+        display: block;
+        text-align: center;
+    }
+    div.container nav.navigation-bar ul{
+        justify-content: center;
+        margin-top: 15px;
+    }
+    div.featured-category-item{
+        width: calc((100% - (2*var(--margin-category-item)))/2);
+        margin: 0px;
+        margin-right: calc(2*var(--margin-category-item));
+        margin-bottom: calc(2*var(--margin-category-item));;
+    }
+    div.featured-category-item:nth-child(even){
+        margin-right: 0px;
+    }
+    article.top-pick-article-item{
+        width: 100%;
+        margin: 0px 15px;
+    
+    }
+    article.top-pick-article-item:not(:first-child):not(:last-child) {
+        margin-left: 0px;
+    }
+    article.fashion-style-article-item{
+        width: 100%;
+    }
+    article.fashion-style-article-item:not(:first-child):not(:last-child) {
+        margin-left: 0px;
+    }
+    div.beauty-article-content {
+        display: block;
+    }
+    img.beauty-article-thumb {
+        width: 100%;
+        border-radius: var(--border-radius-full) var(--border-radius-full) 0px 0px ;
+    }
+    div.beauty-article-info{
+        width: 100%;
+        padding: 25px 25px;
+    }
+    div.trending-article-content{
+        display: block;
+    }
+    img.trending-article-thumb{
+        width: 100%;
+        border-radius: var(--border-radius-full) var(--border-radius-full) 0px 0px ;
+    }
+    div.trending-article-info{
+        padding: 25px 20px;
+    }
+    form.subscribe-form{
+        display: flex;
+        flex-direction: column;
+    }
+    input.subscribe-input-email{
+        width: 100%;
+        margin-bottom: 5px;
+
+    }
+    button.btn-subscribe{
+        width: 100%;
+    }
+    div.footer-right-content{
+        flex-wrap: wrap;
+    }
+    div.footer-list-wrapper{
+        width: 50%;
+    }
+    div.footer-list-wrapper:nth-child(1),
+    div.footer-list-wrapper:nth-child(2){
+        margin-bottom: 35px;
+    }
+}

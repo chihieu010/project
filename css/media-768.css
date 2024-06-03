@@ -1,0 +1,107 @@
+@media only screen and (max-width: 768px) {
+    :root {
+        --padding-container: 129px;
+    }
+div.featured-category-item{
+    width: calc((100% - (2*var(--margin-category-item)))/2);
+
+}
+
+div.featured-category-item:nth-child(2){
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+div.featured-category-item:nth-child(3){
+    margin-left: 0px;
+}
+div.featured-category-item:nth-child(4){
+    margin-right: 0px;
+}
+article.top-pick-article-item:nth-child(1),
+article.top-pick-article-item:nth-child(2){
+    margin-bottom: 30px;
+}
+div.hero-article-wrapper{
+    display: block;
+}
+div.hero-article-info{
+    width: 100%;
+    margin-right: 0px;
+}
+div.hero-article-image{
+    width: 100%;
+    padding: 0px;
+    margin: 24px 0px 0px 0px;
+    
+}
+article.top-pick-article-item{
+    width: calc((100% - 30px)/2);
+
+}
+article.top-pick-article-item:nth-child(2){
+    margin-right: 0px;
+}
+article.top-pick-article-item:nth-child(3){
+    margin-left: 0px;
+}
+div.top-pick-article-info{
+    margin: 0px 25px;
+    bottom: 25px;
+}
+
+a.top-pick-article-link{
+    font-size: 20px;
+}
+article.fashion-style-article-item{
+    width: calc((100% - 30px)/2);
+}
+article.fashion-style-article-item:nth-child(2){
+    margin-right: 0px;
+}
+article.fashion-style-article-item:nth-child(3){
+    margin-left: 0px;
+}
+article.fashion-style-article-item:nth-child(1),
+article.fashion-style-article-item:nth-child(2){
+    margin-bottom: 30px;
+}
+article.beauty-article-item {
+    display: block;
+    width: 100%;
+    margin: 0px 0px 30px 00px;
+}
+article.beauty-article-item:last-child{
+    margin-bottom: 0px;
+}
+div.container-fluid{
+    padding: 96px 15px;
+}
+article.trending-article-item{
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+article.trending-article-item:last-child{
+    margin-bottom: 0px;
+}
+div.trending-article-content{
+    margin-right: 0px;
+}
+div.subscribe-wrapper{
+    padding: 60px 30px;
+}
+input.subscribe-input-email{
+    width: 70%;
+}
+div.footer-wrapper{
+    display: block;
+}
+div.footer-left{
+    display: block;
+    margin-bottom: 30px;
+}
+div.footer-right{
+    width: 100%;
+
+}
+
+}
